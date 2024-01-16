@@ -42,36 +42,57 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="43" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="월"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uj2-Hi-Wv9"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fad-cN-sL4">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fad-cN-sL4">
                                                 <rect key="frame" x="53" y="0.0" width="43.333333333333343" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="화"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pJR-cE-ukg"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKY-jl-TPg">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZKY-jl-TPg">
                                                 <rect key="frame" x="106.33333333333333" y="0.0" width="42.999999999999986" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="수"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="htx-Y7-FtW"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-IT-psC">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCr-IT-psC">
                                                 <rect key="frame" x="159.33333333333334" y="0.0" width="43.333333333333343" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="목"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxe-Na-g17"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8H-it-C5h">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8H-it-C5h">
                                                 <rect key="frame" x="212.66666666666666" y="0.0" width="43" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="금"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0cI-Kl-f00"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wln-v0-vkS">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wln-v0-vkS">
                                                 <rect key="frame" x="265.66666666666669" y="0.0" width="43.333333333333314" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="토"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GtA-KO-Sfj"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ6-Bn-l8h">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQ6-Bn-l8h">
                                                 <rect key="frame" x="319" y="0.0" width="43" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="일"/>
+                                                <connections>
+                                                    <action selector="setDays:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ise-Zt-5ZD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -108,6 +129,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="DaysStack" destination="oEf-jG-0ul" id="cqj-67-RUd"/>
                         <outlet property="setAlarmBtn" destination="lqm-xC-qvg" id="64u-Vr-Sny"/>
                         <outlet property="timePicker" destination="JDD-II-ZTn" id="FUD-K4-yMA"/>
                     </connections>
