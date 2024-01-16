@@ -16,6 +16,7 @@
 		C3A47F862B5663E4002C849C /* SpotifyAlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A47F852B5663E4002C849C /* SpotifyAlarmTests.swift */; };
 		C3A47F902B5663E4002C849C /* SpotifyAlarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A47F8F2B5663E4002C849C /* SpotifyAlarmUITests.swift */; };
 		C3A47F922B5663E4002C849C /* SpotifyAlarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A47F912B5663E4002C849C /* SpotifyAlarmUITestsLaunchTests.swift */; };
+		C3E9E4552B567EB400330912 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3E9E4542B567EB400330912 /* bg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C3A47F8B2B5663E4002C849C /* SpotifyAlarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyAlarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A47F8F2B5663E4002C849C /* SpotifyAlarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAlarmUITests.swift; sourceTree = "<group>"; };
 		C3A47F912B5663E4002C849C /* SpotifyAlarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyAlarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3E9E4542B567EB400330912 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		C3A47F6D2B5663E3002C849C /* SpotifyAlarm */ = {
 			isa = PBXGroup;
 			children = (
+				C3E9E4542B567EB400330912 /* bg.jpg */,
 				C3A47F6E2B5663E3002C849C /* AppDelegate.swift */,
 				C3A47F702B5663E3002C849C /* SceneDelegate.swift */,
 				C3A47F722B5663E3002C849C /* ViewController.swift */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3E9E4552B567EB400330912 /* bg.jpg in Resources */,
 				C3A47F7B2B5663E4002C849C /* LaunchScreen.storyboard in Resources */,
 				C3A47F782B5663E4002C849C /* Assets.xcassets in Resources */,
 				C3A47F762B5663E3002C849C /* Main.storyboard in Resources */,
